@@ -15,5 +15,12 @@ public class Position {
 			}
 			
 		}
+	
+		public int getX(){
+			return pos.get(0);
+		}
+		public int getY(){
+			return pos.get(1);
+		}
 		
 }
